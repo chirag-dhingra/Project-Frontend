@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Nunito', sans-serif;
 }
 header{
     background-color: #2E94CC;
@@ -26,10 +27,13 @@ article{
  font-size: 12px;
  line-height: 18px;
 }
-.share-post{
-    color: #6c6c6c;
- font-size: 12px;
- line-height: 18px;
+.share-post, .links-title{
+font-size: 12px;
+ line-height: 22px;
+ font-weight: 600;
+}
+.links-title{
+    margin-bottom: 12px;
 }
 h1{
  margin: 0;
@@ -51,4 +55,23 @@ h1{
 iframe{
     margin: 50px 0
     
+}
+
+footer{
+    background-color: #f1f1f1;
+    max-width: 680px;
+    margin: auto;
+    padding: 20px 15px;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    margin-bottom: 12px;
+}
+
+footer ul li : :last-of-type{
+    margin: bottom 0;
 }
