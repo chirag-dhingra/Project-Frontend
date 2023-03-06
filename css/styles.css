@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #2E94CC;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 28px;
+}
+article{
+    margin: auto;
+    max-width: 860px;
+    padding-top: 70px;
+}
+.hero-image img{
+    max-width: 100%;
+}
+.hero-image{
+    margin: 50px 0;
+}
+
+.post-author{
+ color: #6c6c6c;
+ font-size: 12px;
+ line-height: 18px;
+}
+.share-post{
+    color: #6c6c6c;
+ font-size: 12px;
+ line-height: 18px;
+}
+h1{
+ margin: 0;
+ font-size: 52px;
+ letter-spacing: 1.3px;
+ line-height: 58px;
+}
+#title-section{
+    margin-bottom: 50px;
+}
+#content-section{
+    max-width: 680px;
+    margin: auto;
+
+}
+.uppercase{
+    text-transform: uppercase;
+}
+iframe{
+    margin: 50px 0
+    
+}
