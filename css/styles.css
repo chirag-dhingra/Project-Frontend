@@ -13,6 +13,7 @@ header{
 article{
     margin: auto;
     max-width: 860px;
+    padding: 8px;
     padding-top: 70px;
 }
 .hero-image img{
@@ -35,6 +36,13 @@ font-size: 12px;
 .links-title{
     margin-bottom: 12px;
 }
+.share-post span{
+    margin-right: 4px;
+}
+
+.share-post img{
+vertical-align: middle;}
+
 h1{
  margin: 0;
  font-size: 52px;
@@ -53,6 +61,7 @@ h1{
     text-transform: uppercase;
 }
 iframe{
+    max-width: 100%;
     margin: 50px 0
     
 }
@@ -72,6 +81,6 @@ footer ul li{
     margin-bottom: 12px;
 }
 
-footer ul li : :last-of-type{
+footer ul li :last-of-type{
     margin: bottom 0;
 }
